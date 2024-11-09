@@ -1,0 +1,8 @@
+name = "pluto-speaker"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+# 开启 nodejs 兼容模式
+compatibility_flags = [ "nodejs_compat" ]
+
+# 环境变量将通过 Cloudflare 的 secrets 管理
