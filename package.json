@@ -1,0 +1,21 @@
+{
+  "name": "pluto-speaker",
+  "version": "1.0.0",
+  "description": "API system with audio interaction",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy src/index.ts"
+  },
+  "dependencies": {
+    "hono": "^3.0.0",
+    "@supabase/supabase-js": "^2.0.0",
+    "jose": "^4.0.0",
+    "openai": "^4.0.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.0.0",
+    "typescript": "^5.0.0",
+    "wrangler": "^3.0.0"
+  }
+}
